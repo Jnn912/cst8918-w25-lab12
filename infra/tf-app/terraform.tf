@@ -12,8 +12,8 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "jin00098-githubactions-rg"
     storage_account_name = "jin00098githubactions"
-    container_name      = "tfstate"
-    key                 = "prod.app.tfstate"
+    container_name       = "tfstate"
+    key                  = "prod.app.tfstate"
   }
 }
 
